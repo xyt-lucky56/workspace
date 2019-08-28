@@ -77,7 +77,7 @@
            ,remark
        FROM  inf_dictionary
        <where>
-           1=1
+           1=1  AND stopSign = 0
            <if test="signName !=null">
                AND signName = #{signName}
            </if>
