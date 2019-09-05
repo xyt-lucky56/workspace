@@ -7,6 +7,6 @@ import org.apache.ibatis.annotations.SelectProvider;
 
 public interface SelectMapEntityMapper<T> {
 	@SelectProvider(type = BaseSelectMapEntityProvider.class, method = "dynamicSQL")
-    @MapKey("pkid")
+    @MapKey("id")
 	Map<Long,T> selectMapEntity(T record);
 }
