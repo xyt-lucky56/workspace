@@ -52,7 +52,7 @@ public class InfDictionaryController {
             , @RequestParam(value = "page", defaultValue = "1") int page
             , @RequestParam(value = "limit", defaultValue = "10") int limit) throws ParseException, ClassNotFoundException {
         signName = signName == null ? signName : signName.trim();
-////测试梁昊
+////测试
         PageHelper.startPage(page, limit);
         List<InfDictionary> listOfInfDictionary = infDictionaryService.getListOfInfDictionary(signName);
         PageInfo pageInfo = new PageInfo<>(listOfInfDictionary, limit);
