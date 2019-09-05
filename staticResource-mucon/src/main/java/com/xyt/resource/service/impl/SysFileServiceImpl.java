@@ -94,7 +94,7 @@ public class SysFileServiceImpl extends BaseServiceImpl<SysFileMapper,SysFile> i
     @Override
     public List<SysFile> findSysFileByRelId(SysFile sysFile) {
         Example example = new Example(SysFile.class);
-        example.setOrderByClause(" pkid asc "); //加入排序条件
+        example.setOrderByClause("id asc "); //加入排序条件
         
         Example.Criteria criteria = example.createCriteria();
         if (StringUtils.isNotBlank(sysFile.getFileType())) {
