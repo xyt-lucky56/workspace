@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/staticResource-mucon/static-resource-mucon.iml" filepath="$PROJECT_DIR$/staticResource-mucon/static-resource-mucon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/workspace-master.iml" filepath="$PROJECT_DIR$/.idea/workspace-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xyt-commapper/xyt-commapper.iml" filepath="$PROJECT_DIR$/xyt-commapper/xyt-commapper.iml" />
+    </modules>
+  </component>
+</project>
