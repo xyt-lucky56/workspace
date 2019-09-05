@@ -30,7 +30,6 @@ import java.util.*;
 /**
  * @author yk
  * @date 2019/8/28 14:10
- * @function
  */
 @RestController
 public class FileUploadController {
@@ -165,7 +164,7 @@ public class FileUploadController {
      * 根据文件ID删除图片
      *
      * @param id
-     * @return
+     * @return Boolean
      */
     @Transactional
     @RequestMapping(value = "/deleteImgById", method = RequestMethod.GET)
@@ -283,7 +282,7 @@ public class FileUploadController {
      * 根据业务ID删除图片
      *
      * @param relId
-     * @return
+     * @return Boolean
      */
     @Transactional
     @RequestMapping(value = "/deleteFileByRelId", method = RequestMethod.GET)
